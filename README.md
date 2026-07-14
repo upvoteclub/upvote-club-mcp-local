@@ -44,10 +44,11 @@ npx upvote-club-mcp-local
 }
 ```
 
-## Tools (7)
+## Tools (8)
 
 | Tool | Auth | Backend |
 |------|------|---------|
+| `get_api_reference` | none | full examples, prices, errors |
 | `list_platforms` | none | static catalog |
 | `list_api_keys` | JWT | `GET /api/public-api/list-keys/` |
 | `generate_api_key` | JWT | `POST /api/public-api/generate-key/` |
@@ -59,6 +60,13 @@ npx upvote-club-mcp-local
 
 - Upvote.club **MATE** plan
 - Sufficient point balance and daily task slots
+
+## API reference
+
+Full request examples, minimum prices, and error catalog:
+
+- MCP tool: **`get_api_reference`**
+- GitHub: https://github.com/alxgntv/upvote-club-mcp-core/blob/main/docs/API_REFERENCE.md
 
 ## Privacy
 
