@@ -10,7 +10,7 @@ Stdio MCP server for the [Upvote.club Public API](https://upvote.club/api).
 4. Install and configure:
 
 ```bash
-git clone https://github.com/alxgntv/upvote-club-mcp-local.git
+git clone https://github.com/upvoteclub/upvote-club-mcp-local.git
 cd upvote-club-mcp-local
 npm install
 ```
@@ -40,7 +40,7 @@ npm install
 
 `get_api_reference`, `list_platforms`, `create_task`, `get_task_status`, `delete_task`
 
-Docs: https://github.com/alxgntv/upvote-club-mcp-core/blob/main/docs/API_REFERENCE.md
+Docs: https://github.com/upvoteclub/upvote-club-mcp-core/blob/main/docs/API_REFERENCE.md
 
 ## Privacy
 
