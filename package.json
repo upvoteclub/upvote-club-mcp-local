@@ -1,0 +1,39 @@
+{
+  "name": "upvote-club-mcp-local",
+  "version": "1.0.0",
+  "description": "Self-serve local MCP server for Upvote.club Public API (stdio)",
+  "type": "module",
+  "bin": {
+    "upvote-club-mcp": "server/index.js"
+  },
+  "files": [
+    "server",
+    "test",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "node --test test/smoke.test.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "upvote-club",
+    "model-context-protocol",
+    "promotion",
+    "social-media"
+  ],
+  "author": "Upvote.club <yes@upvote.club>",
+  "license": "MIT",
+  "homepage": "https://upvote.club/api",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alxgntv/upvote-club-mcp-local.git"
+  },
+  "dependencies": {
+    "@upvote-club/mcp-core": "github:alxgntv/upvote-club-mcp-core",
+    "@modelcontextprotocol/sdk": "^1.12.0"
+  }
+}
