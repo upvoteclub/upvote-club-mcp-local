@@ -1,6 +1,6 @@
 {
   "name": "upvote-club-mcp-local",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Self-serve local MCP server for Upvote.club Public API (stdio)",
   "type": "module",
   "bin": {
@@ -37,6 +37,6 @@
   },
   "dependencies": {
     "@upvote-club/mcp-core": "github:upvoteclub/upvote-club-mcp-core",
-    "@modelcontextprotocol/sdk": "^1.12.0"
+    "@modelcontextprotocol/sdk": "^1.32.1"
   }
 }
