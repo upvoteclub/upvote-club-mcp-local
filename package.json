@@ -1,6 +1,6 @@
 {
   "name": "upvote-club-mcp-local",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Self-serve local MCP server for Upvote.club Public API (stdio)",
   "type": "module",
   "bin": {

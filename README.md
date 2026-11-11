@@ -6,7 +6,7 @@ Stdio MCP server for the [Upvote.club Public API](https://upvote.club/api).
 
 | Package | Repository | Use case |
 |---------|------------|----------|
-| Core | [upvote-club-mcp-core](https://github.com/upvoteclub/upvote-club-mcp-core) | Shared MCP server library (5 tools) |
+| Core | [upvote-club-mcp-core](https://github.com/upvoteclub/upvote-club-mcp-core) | Shared MCP server library (6 tools) |
 | **Local** | **This repo** — [upvote-club-mcp-local](https://github.com/upvoteclub/upvote-club-mcp-local) | Cursor, Claude Code, manual Claude Desktop (`stdio`) |
 | MCPB | [upvote-club-mcp-mcpb](https://github.com/upvoteclub/upvote-club-mcp-mcpb) | Single-click Claude Desktop `.mcpb` install |
 | Remote | [upvote-club-mcp-remote](https://github.com/upvoteclub/upvote-club-mcp-remote) | Canonical remote endpoint with OAuth and MCP Apps UI |
@@ -45,9 +45,9 @@ npm install
 | `UPVOTE_API_KEY` | Yes | From https://upvote.club/api |
 | `UPVOTE_API_URL` | No | Default `https://api.upvote.club` |
 
-## Tools (5)
+## Tools (6)
 
-`get_api_reference`, `list_platforms`, `create_task`, `get_task_status`, `delete_task`
+`get_api_reference`, `list_platforms`, `get_balance`, `create_task`, `get_task_status`, `delete_task`
 
 Docs: [API_REFERENCE.md](https://github.com/upvoteclub/upvote-club-mcp-core/blob/main/docs/API_REFERENCE.md) (core repo)
 
